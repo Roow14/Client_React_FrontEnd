@@ -213,3 +213,131 @@ color: #fff;
 }
 
 
+@media (max-width: 768px){
+  
+   .movie-detail-container {
+      width: 100%;
+      padding: 10px;
+    }  
+    .banner {
+      width: 363px;
+      height: 200px;
+      padding: 16px;
+    }
+  
+    .trailer-button {
+      width: 373px;
+      height: 40px;
+      bottom: 10px;
+      left: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .movie-description {
+      margin-top: 10px;
+      top: 20px;
+      width: 300px;
+    }
+  
+    .movie-description h1 {
+      font-size: 24px;
+    }
+    .movie-description .rating {
+      left: 90%;
+      font-size: 16px;
+    }
+    .movie-description .subtitle {
+      position: relative;
+left: 0px;
+      top: -40px;
+    }
+  
+  
+  
+    .movie-description p {
+      font-size: 14px;
+      width: 100%;
+      height: auto;
+      top: -50px;
+    }
+  
+    .movie-credits {
+      width: 100%;
+      top: -20px;
+    }
+  
+    .movie-credits h2 {
+      font-size: 14px;
+      position: relative;
+      left: -65%;
+      
+    }
+  
+    .movie-credits p {
+      font-size: 12px;
+      position: relative;
+      left: -65%;
+    }
+  
+    .movie-artists {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 170px;
+    }
+    
+  
+    .carousel .cast-item {
+      max-width: 200px;
+    }
+  
+    .cast-photo {
+      width: 200px;
+      height: 180px;
+      margin-bottom: 5px;
+    }
+  
+    .cast-item p {
+      font-size: 12px;
+      top: -40px;
+      width: 100%;
+    }
+  
+    .carousel .slick-dots {
+      bottom: -20px;
+    }
+  
+    .similar-movies {
+      width: 100%;
+      height: auto;
+      position: relative;
+      top: 150px;
+    }
+  
+    .similar-movies-list {
+      gap: 8px;
+      height: auto;
+    }
+  
+    .similar-movie-item {
+      max-width: 200px;
+    }
+  
+    .similar-movie-poster {
+      width: 200px;
+      height: 180px;
+      margin-bottom: 5px;
+    }
+    .similar-movie-item p{
+      top: -130px;
+    }
+    .similar-movies .trailer-button {
+      padding: 6px;
+      font-size: 14px;
+      width: 140px;
+      top: -130px;
+    }
+  }
+
+
