@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Projeto Rater , Streaming de Filmes 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um site de streaming de filmes desenvolvido utilizando as mais modernas tecnologias front-end para proporcionar uma experiência de usuário rica e dinâmica. O projeto é construído com **React** e **TypeScript**, o que garante uma aplicação escalável e com tipagem segura. A gestão do estado global é feita com **Zustand**, permitindo um gerenciamento de dados eficiente e reativo. Para a estilização dos componentes, são utilizados **styled-components**, que oferecem um sistema de estilos modular e reutilizável, mantendo o código CSS organizado e específico para cada componente.
 
-## Available Scripts
+### Funcionalidades Principais:
 
-In the project directory, you can run:
+1. **Exibição de Filmes**: 
+   - O site exibe uma variedade de filmes organizados em diferentes categorias, como lançamentos, recomendados e assistidos.
+   - O layout inclui componentes como `SelectionContainer`, que destaca filmes em uma seção principal, e `Lancamento`, que mostra os últimos lançamentos em um carrossel interativo.
 
-### `npm start`
+2. **Banners Dinâmicos**:
+   - Banners grandes e pequenos são usados para destacar filmes específicos. Esses banners incluem títulos, descrições, avaliações, e botões para assistir ao trailer ou ao filme.
+   - A exibição dos banners é responsiva e adaptada tanto para desktop quanto para dispositivos móveis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **API Integration**:
+   - O projeto consome dados de uma API pública de filmes (como o IMDB) para exibir tendências da semana, detalhes de filmes, e outras informações relevantes.
+   - A aplicação utiliza paths específicos, como `/trending/all/week`, para buscar os filmes mais populares em determinado período.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Componentes Customizados**:
+   - Diversos componentes foram desenvolvidos para criar uma experiência única, como `SmallImageContainer` e `Lancamento`, que organizam filmes em layouts distintos.
+   - Os componentes foram projetados para serem altamente reutilizáveis e facilmente ajustáveis conforme as necessidades do projeto.
 
-### `npm test`
+5. **Design Responsivo**:
+   - A aplicação é projetada para ser responsiva, garantindo uma experiência de usuário fluida em dispositivos móveis e desktops.
+   - Os componentes de banner e outros elementos do layout têm dimensões e estilos específicos para diferentes tamanhos de tela.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. **Banco de Dados**:
+   - O projeto se conecta a um banco de dados MySQL para armazenar informações sobre filmes, incluindo nome, descrição, nota, e celebridades associadas.
 
-### `npm run build`
+### Tecnologias Utilizadas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** e **TypeScript**: Para a criação de componentes interativos e com tipagem estática.
+- **Zustand**: Para gerenciamento de estado global da aplicação.
+- **Styled-Components**: Para a estilização dos componentes de forma modular.
+- **FontAwesome**: Para ícones estilizados e representativos.
+- **MySQL**: Para armazenamento de dados relacionados aos filmes e usuários.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto representa uma solução completa e moderna para o streaming de filmes, com uma interface bem projetada, uma experiência de usuário fluida, e uma forte integração com APIs de filmes.
